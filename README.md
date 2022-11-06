@@ -20,7 +20,8 @@ Checkpoints are located in models/ folder.
 It works using 
 
 `
-git clone 
+git clone https://github.com/jakokorina/KWS.git
+
 python3 stream.py`
 
 
