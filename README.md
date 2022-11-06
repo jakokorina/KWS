@@ -22,6 +22,8 @@ It works using
 ```
 git clone https://github.com/jakokorina/KWS.git
 
+cd KWS
+
 python3 stream.py
 ```
 
