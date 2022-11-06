@@ -19,9 +19,10 @@ Checkpoints are located in models/ folder.
 
 It works using 
 
-`git clone https://github.com/jakokorina/KWS.git`
+```
+git clone https://github.com/jakokorina/KWS.git
 
-`python3 stream.py`
-
+python3 stream.py
+```
 
 The major challenge was searching for the implementations of all methods because nobody has showed it to us. Another challenge was finding wavs for the plots which you can see at the very end of my ipynb.
