@@ -11,9 +11,11 @@ Checkpoints are located in models/ folder.
 
 3. Then I tried to teach RNN instead of LSTM, it didn't gave necessary val metric.
 
-3. Then I halfed model parameters, which gave me fantastic memory reduction rate(7.27).
+4. Then I halfed model parameters, which gave me fantastic memory reduction rate(7.27).
 
-4. Then I teached LSTM model using layer distillation, it gave good val metric but made all rates bigger. Then I tried making the same thing with RNN twice, but it didn't work either.
+5. Then I teached LSTM model using layer distillation, it gave good val metric but made all rates bigger. Then I tried making the same thing with RNN twice, but it didn't work either.
+
+All of the training information is located in the notebook. You can reproduce any model I trained by running the ipynb from the start to the cell with the model you want to reproduce.
 
 ## Streaming model
 
@@ -25,4 +27,5 @@ cd KWS
 python3 stream.py
 ```
 
-The major challenge was searching for the implementations of all methods because nobody has showed it to us. Another challenge was finding wavs for the plots which you can see at the very end of my ipynb.
+
+The major challenge was searching for the implementations of all methods because nobody has shown it to us. Another challenge was finding wavs for the plots which you can see at the very end of my ipynb.
